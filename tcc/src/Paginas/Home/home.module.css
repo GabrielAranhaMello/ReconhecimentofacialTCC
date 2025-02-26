@@ -1,0 +1,149 @@
+html, body{
+    background-image: linear-gradient(to bottom, #2bff00, #039427);
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.menuAtivado{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 20vw;
+    height: 100vh;
+    background-color: white;
+    display: block; 
+    z-index: 3;
+    transition: width 0.3s ease-in-out;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.menuDesativado{
+    display: none;
+}
+
+.foraDoMenuDesativado{
+    display: none;
+}
+
+.foraDoMenuAtivado{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    z-index: 2;
+   transition: opacity 0.3s ease-in-out;
+}
+
+.hamburguer{
+    width: 35px;
+    height: 4px;
+    background-color: white;
+    margin-bottom: 2px;
+    border-radius: 10px;
+    
+}
+
+.hamburguer:hover{
+    cursor: pointer;
+}
+
+.hamburguer:first-child{
+    margin-top: 50px;
+}
+
+.hamburguer:last-child{
+    margin-bottom: 20px;
+}
+
+.containerTextual{
+    margin-top: 50px;
+    vertical-align: bottom;
+    height: 400px;
+    display: inline-block;
+    width: 50%;
+    padding-left: 20px;
+}
+
+.containerDeImagem{
+    display: inline-block;
+    width: 50%;
+    margin: 0 auto;
+    height: 400px;
+}
+
+h1{
+    margin-top: -4px;
+    font-family: 'Contrail One';
+    font-weight: 500;
+}
+
+hr{
+    background-color: rgb(24, 202, 24);
+    height: 1px;
+    width: 150px;
+    float: left;
+    margin-top: -20px;
+}
+
+p{
+    font-family: 'Inter';
+    font-size: 25px;
+    font-weight: 400;
+    text-align: justify;
+    margin-top: 40px;
+}
+
+.containerDeImagem img{
+    vertical-align: bottom;
+    width: 330px;
+    margin-left: 70px;
+    margin-top: 40px;
+}
+
+.botao{
+    margin-bottom: 20px;
+    background-color: #03942700;
+    border: 0;
+    font-size: 25px;
+    font-family: 'Abel';
+    display: inline;
+}
+
+.botao:hover{
+    cursor: pointer;
+}
+
+.seta{
+    position: relative;
+    top: 12px;
+    float: right;
+}
+
+.setaSuperior{
+    width: 9px;
+    height: 1px;
+    background-color: black;
+    transform: rotate(45deg);
+}
+
+.setaInferior{
+    width: 9px;
+    height: 1px;
+    background-color: black;
+    transform: rotate(-45deg);
+    margin-top: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}

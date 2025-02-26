@@ -1,0 +1,51 @@
+.pPerfil{
+    display: inline-block;
+}
+
+.spanPerfil{
+    height: 10px;
+    width: 400px;
+    border-bottom: 3px solid rgb(184, 181, 181);
+    display: inline-block;
+}
+
+.fotoExemplo{
+    width: 200px;
+    height: 200px;
+    background-color: grey;
+    display: inline-block;
+    margin-left: 120px;
+    top: -60px;
+    position: relative;
+}
+
+.divPerfil{
+    width: 400px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.divPerfil p{
+    font-family: 'ConcertOne';
+    color: rgb(34, 34, 34);
+}
+
+.divInfo{
+    width: 50%;
+    display: inline-block;
+    margin-bottom: 60px;
+}
+
+.botaoHistorico{
+    margin-left: 740px; 
+    position: relative;
+    top: -60px;
+    background-color: #069D24;
+    border-radius: 20px;
+    padding: 10px;
+    color: #FFFFFF;
+    border: solid white 5px;
+    font-family: 'Inter';
+    font-size: 25px;
+    padding: 0 20px;
+}

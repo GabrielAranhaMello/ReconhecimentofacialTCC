@@ -1,0 +1,34 @@
+@font-face {
+  font-family: 'Contrail one';
+  src: url('Fontes/Contrail_One/ContrailOne-Regular.ttf') format('woff2')
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('Fontes/Inter/Inter-VariableFont_opsz\,wght.ttf') format('woff2')
+}
+
+@font-face {
+  font-family: 'Abel';
+  src: url('Fontes/Abel/Abel-Regular.ttf') format('woff2')
+}
+
+@font-face {
+  font-family: 'ConcertOne';
+  src: url('Fontes/ConcertOne/ConcertOne-Regular.ttf') format('woff2')
+}
+
+
+.containerGlobal{
+  width: 900px;
+  margin: 0 auto;
+  z-index: 1;
+}
+
+.containerPrincipal{
+  background-color: white;
+  width: 900px;
+  padding: 20px;
+  border-radius: 20px;
+  overflow: hidden;
+}
