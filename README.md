@@ -1,1 +1,1 @@
-Então, Hélvio, o restante do grupo não deu nenhum "commit" porque conta de complicações que tivemos na instalação do Git, mas todos os memebros ajudaram no desenvolvimento dos códigos e com o projeto no geral.
+Então, Hélvio, o restante do grupo não deu nenhum "commit" por conta de complicações que tivemos na instalação do Git, mas todos os membros ajudaram no desenvolvimento dos códigos e com o projeto no geral.
